@@ -1,9 +1,25 @@
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
+
+    eleventyConfig.addPassthroughCopy({
+        "src/assets": "assets",
+    });
+
+    eleventyConfig.addCollection("actividades", (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/actividades/*.md");
+    });
+
+    eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+    eleventyConfig.addLayoutAlias("actividad", "layouts/actividad.njk");
+
     return {
         dir: {
-            input: 'src',
-            includes: '_includes',
-            output: '_site'
-        }
-    }
+            input: "src",
+            output: "_site",
+            includes: "_includes",
+        },
+
+        templateFormats: ["md", "njk", "html"],
+        markdownTemplateEngine: "njk",
+        htmlTemplateEngine: "njk",
+    };
 }

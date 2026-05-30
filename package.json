@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve --watch"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.5"
