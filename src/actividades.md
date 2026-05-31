@@ -16,7 +16,7 @@ Esta sección reúne las actividades educativas disponibles en la biblioteca.
     </p>
 
     <h2 class="card-title">
-        <a href="{{ actividad.url }}">
+        <a href="{{ actividad.url | url }}">
             {{ actividad.data.title }}
         </a>
     </h2>
