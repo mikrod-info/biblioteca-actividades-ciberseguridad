@@ -151,7 +151,7 @@ Mapa interactivo de cables submarinos utilizados para transportar grandes volúm
 > **¿Por qué algunos sitios muestran un candado?**
 > 
 > El candado indica que la conexión utiliza HTTPS y que la información intercambiada entre el dispositivo y el sitio web viaja protegida mediante cifrado durante la transmisión.
-> 
+
 > **¿Qué es el cifrado?**
 > 
 > El cifrado es una técnica que transforma la información en un formato que resulta difícil de comprender para quienes no poseen la clave o el conocimiento necesario para interpretarla.
@@ -173,43 +173,42 @@ Mapa interactivo de cables submarinos utilizados para transportar grandes volúm
 >> Aunque los mensajes podían ser capturados durante su transmisión, el cifrado dificultaba enormemente su comprensión. Este caso suele utilizarse para ilustrar una idea fundamental de la criptografía: interceptar un mensaje no siempre significa poder entenderlo.
 >> 
 >> Los avances logrados durante este período tuvieron una gran influencia en el desarrollo de la criptografía moderna y de las ciencias de la computación.
->
+
 > **¿Qué es un certificado digital?**
 > 
 > Un certificado digital es un documento electrónico que permite verificar la identidad de un sitio web y habilitar conexiones seguras mediante HTTPS. Los navegadores utilizan estos certificados para comprobar que están comunicándose con el sitio esperado y no con un tercero que intenta hacerse pasar por él.
-> 
+
 > **¿Por qué es importante revisar el certificado digital?**
 > 
 > Un certificado vencido o inválido puede indicar problemas de configuración o dificultar la verificación de la identidad del sitio. Por este motivo, los navegadores suelen mostrar advertencias cuando detectan certificados que no son válidos.
-> 
+
 > **¿HTTPS significa que una página es completamente segura?**
 >
 > No necesariamente. HTTPS ayuda a proteger la comunicación entre el dispositivo y el sitio web, pero no garantiza que el sitio sea confiable ni que la información publicada sea verdadera.
-> 
+ 
 > **¿HTTPS y los certificados digitales garantizan seguridad total?**
 > 
 > No. HTTPS y los certificados digitales ayudan a proteger la información durante su transmisión y permiten verificar la identidad del sitio web, pero no impiden que una página contenga errores, información falsa o intenciones maliciosas.
->
+
 > **¿Alguien puede ver lo que hago en Internet?**
 > 
 > Depende del servicio utilizado, la configuración de privacidad y las medidas de seguridad implementadas. Distintos actores pueden registrar o analizar parte de la actividad realizada en línea, aunque HTTPS dificulta que terceros puedan acceder al contenido de las comunicaciones durante la transmisión.
->
+
 > **¿Qué es un ataque Man-in-the-Middle?**
 > 
 > Es un ataque en el que una persona o sistema se interpone entre dos partes que intentan comunicarse para observar, modificar o capturar información sin que los participantes lo adviertan.
->
+
 > **¿Qué es un backbone?**
 > 
 > Un backbone es una red principal de alta capacidad que conecta distintas redes entre sí y transporta grandes volúmenes de información. Puede entenderse como una de las "autopistas" principales de Internet.
->
+
 > **¿Qué es la fibra óptica?**
 > 
 > La fibra óptica es un medio físico utilizado para transmitir información mediante pulsos de luz. Permite alcanzar altas velocidades de transmisión y es una de las tecnologías más utilizadas para las conexiones modernas a Internet.
->
+
 > **¿Qué es el Wi-Fi?**
 > 
 > Wi-Fi es una tecnología que permite conectar dispositivos a una red utilizando ondas de radio en lugar de cables. Generalmente se utiliza para conectar teléfonos, computadoras y otros dispositivos al router del hogar o de una organización.
->
 > **¿El Wi-Fi e Internet son lo mismo?**
 > 
 > No. Wi-Fi es una forma de conectar dispositivos a una red local de manera inalámbrica. Internet es la red global a la que esa red local puede estar conectada.
@@ -217,7 +216,7 @@ Mapa interactivo de cables submarinos utilizados para transportar grandes volúm
 > **¿Qué son los datos móviles?**
 > 
 > Los datos móviles permiten acceder a Internet mediante la red de telefonía celular. A diferencia del Wi-Fi, la conexión se realiza utilizando la infraestructura del operador móvil.
-> 
+
 > **¿Internet está en la nube?**
 > 
 > La expresión "la nube" suele utilizarse para simplificar la explicación de servicios e infraestructura en Internet. Sin embargo, la información realmente se almacena y transmite mediante computadoras, centros de datos, servidores, cables submarinos, antenas y otros componentes físicos distribuidos por todo el mundo.
