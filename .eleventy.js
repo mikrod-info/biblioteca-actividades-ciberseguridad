@@ -14,7 +14,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addLayoutAlias("actividad", "layouts/actividad.njk");
 
     return {
-        pathPrefix: "/",
+        pathPrefix: "/biblioteca-actividades-ciberseguridad/",
         dir: {
             input: "src",
             output: "_site",
