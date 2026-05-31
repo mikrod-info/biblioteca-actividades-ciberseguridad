@@ -5,7 +5,7 @@ title: Biblioteca de Actividades sobre Ciudadanía Digital y Ciberseguridad
 
 # Biblioteca de Actividades sobre Ciudadanía Digital y Ciberseguridad
 
-Internet forma parte de nuestra vida cotidiana. Lo usamos para comunicarnos, trabajar, estudiar, realizar trámites, comprar, informarnos y entretenernos. Sin embargo, muchas veces utilizamos estas herramientas sin comprender completamente cómo funcionan o qué riesgos y oportunidades presentan.
+Internet forma parte de nuestra vida cotidiana. Lo usamos para comunicarnos, trabajar, estudiar, realizar trámites, comprar, informarnos y entretenernos. Sin embargo, muchas veces utilizamos estas herramientas sin comprender completamente cómo funcionan, las oportunidades presentan y sus riesgos.
 
 Esta biblioteca reúne actividades educativas diseñadas para acercar temas como Internet, privacidad, contraseñas, phishing e inteligencia artificial mediante propuestas participativas, ejemplos cotidianos y situaciones cercanas a la experiencia de las personas.
 
@@ -21,4 +21,4 @@ Las actividades pueden adaptarse a distintos contextos educativos y comunitarios
 
 Cada actividad aborda un tema específico y puede utilizarse de manera independiente o combinarse con otras para construir recorridos de aprendizaje más amplios.
 
-[Ver actividades →]({{ actividades.url | url }})
+[Ver actividades →]({{ '/actividades/' | url }})
