@@ -5,6 +5,8 @@ title: Actividades prácticas
 
 Esta sección reúne las actividades educativas disponibles en la biblioteca. Cada propuesta incluye objetivos, materiales necesarios, sugerencias para su implementación y observaciones surgidas durante experiencias reales de aplicación.
 
+{{ collections.actividades.length }} actividades disponibles.
+
 {% for actividad in collections.actividades %}
 
 ## [{{ actividad.data.title }}]({{ actividad.url }})
