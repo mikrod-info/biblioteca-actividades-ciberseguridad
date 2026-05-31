@@ -14,6 +14,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addLayoutAlias("actividad", "layouts/actividad.njk");
 
     return {
+        pathPrefix: "/",
         dir: {
             input: "src",
             output: "_site",
