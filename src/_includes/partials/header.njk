@@ -1,11 +1,5 @@
 <header>
-    <h1>{{ title }}</h1>
 
-    {% if description %}
-    <p>{{ description }}</p>
-    {% endif %}
+    {% include "partials/nav.njk" %}
 
-    {% if duracion %}
-    <p><strong>Duración:</strong> {{ duracion }}</p>
-    {% endif %}
 </header>

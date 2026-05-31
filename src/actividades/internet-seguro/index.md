@@ -1,16 +1,18 @@
 ---
 layout: actividad
 title: Internet seguro
-description: Comprender cómo circula la información en Internet.
-duracion: 90 minutos
-publico:
-  - adultos mayores
-temas:
+description: Explorar cómo viaja la información en Internet, cómo protegerla y qué riesgos pueden surgir durante su transmisión.
+icon: "🌐"
+duracion: 120 minutos
+tags:
   - internet
-  - man-in-the-middle
+  - privacidad
+  - cifrado
   - https
   - certificados digitales
-  - privacidad
+  - interceptación de datos
+  - transmisión de datos
+  - man-in-the-middle
 ---
 
 ## Resumen
@@ -134,11 +136,11 @@ Firesheep fue una extensión para el navegador Firefox lanzada en octubre de 201
 
 [Codebutler - Firesheep (2010)](https://codebutler.com/2010/10/24/firesheep/)
 
-### HE.net 3D Network Map
+### Hurricane Electric 3D Network Map
 
 Mapa interactivo que permite visualizar parte de la infraestructura física de Internet y las conexiones entre distintas regiones del mundo. Resulta útil para comprender que Internet no es una entidad abstracta o una "nube", sino una red compuesta por equipos, enlaces y centros de datos distribuidos geográficamente.
 
-[Mapa HE](https://he.net/3d-map/)
+[HE 3D Network Map - Global Internet Backbone](https://he.net/3d-map/)
 
 ### Submarine Cable Map
 
@@ -208,7 +210,7 @@ Mapa interactivo de cables submarinos utilizados para transportar grandes volúm
 
 > **¿Qué es el Wi-Fi?**
 > 
-> Wi-Fi es una tecnología que permite conectar dispositivos a una red utilizando ondas de radio en lugar de cables. Generalmente se utiliza para conectar teléfonos, computadoras y otros dispositivos al router del hogar o de una organización.
+> Wi-Fi es una tecnología que permite conectar dispositivos a una red utilizando ondas de radio en lugar de cables. Generalmente, se utiliza para conectar teléfonos, computadoras y otros dispositivos al router del hogar o de una organización.
 > **¿El Wi-Fi e Internet son lo mismo?**
 > 
 > No. Wi-Fi es una forma de conectar dispositivos a una red local de manera inalámbrica. Internet es la red global a la que esa red local puede estar conectada.

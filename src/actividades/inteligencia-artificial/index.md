@@ -1,14 +1,16 @@
 ---
 layout: actividad
 title: Inteligencia Artificial
-description: Historia y uso de la Inteligencia Artificial.
-duracion: 90 minutos
-
-publico:
-  - adultos mayores
-
-temas:
-  - IA
+description: Explorar desde cuándo se considera que existe la Inteligencia Artificial, qué puede hacer, cuáles son sus límites y qué sesgos puede presentar.
+icon: "🤖"
+duracion: 120 minutos
+tags:
+  - inteligencia artificial
+  - modelos de lenguaje
+  - chatbots
+  - IA generativa
+  - alucinaciones
+  - pensamiento crítico
 ---
 
 ## Resumen
@@ -21,21 +23,21 @@ La propuesta combina explicaciones breves, intercambio de experiencias, experime
 
 ## Objetivos
 
-* Comprender qué entendemos por inteligencia artificial.
-* Conocer algunos hitos históricos relevantes en la evolución de la IA.
-* Diferenciar conceptos como predicción de texto, aprendizaje automático e inteligencia artificial generativa.
-* Explorar herramientas de inteligencia artificial mediante experiencias prácticas.
-* Observar la evolución de los sistemas conversacionales.
-* Reconocer que los sistemas de IA funcionan a partir de probabilidades y patrones aprendidos.
-* Identificar limitaciones, errores y alucinaciones generadas por estos sistemas.
-* Promover un uso crítico, responsable y seguro de las herramientas de inteligencia artificial.
+- Comprender qué entendemos por inteligencia artificial.
+- Conocer algunos hitos históricos relevantes en la evolución de la IA.
+- Diferenciar conceptos como predicción de texto, aprendizaje automático e inteligencia artificial generativa.
+- Explorar herramientas de inteligencia artificial mediante experiencias prácticas.
+- Observar la evolución de los sistemas conversacionales.
+- Reconocer que los sistemas de IA funcionan a partir de probabilidades y patrones aprendidos.
+- Identificar limitaciones, errores y alucinaciones generadas por estos sistemas.
+- Promover un uso crítico, responsable y seguro de las herramientas de inteligencia artificial.
 
 ## Materiales necesarios
 
-* Computadora, tablet o teléfono celular con acceso a Internet.
-* Proyector o pantalla (opcional).
-* Navegador web actualizado.
-* Acceso a herramientas de IA para demostraciones y ejercicios prácticos.
+- Computadora, tablet o teléfono celular con acceso a Internet.
+- Proyector o pantalla (opcional).
+- Navegador web actualizado.
+- Acceso a herramientas de IA para demostraciones y ejercicios prácticos.
 
 ## Guía para quien coordina
 
@@ -55,11 +57,11 @@ La expresión "inteligencia artificial" suele utilizarse para describir tecnolog
 
 Antes de abordar herramientas actuales como ChatGPT, resulta útil observar que muchas de las preguntas que hoy nos hacemos sobre la inteligencia artificial tienen varias décadas de historia:
 
-* ¿Puede una computadora conversar?
-* ¿Puede resolver problemas complejos?
-* ¿Puede aprender?
-* ¿Puede crear contenido?
-* ¿Puede equivocarse?
+- ¿Puede una computadora conversar?
+- ¿Puede resolver problemas complejos?
+- ¿Puede aprender?
+- ¿Puede crear contenido?
+- ¿Puede equivocarse?
 
 Estas preguntas sirven como punto de partida para explorar cómo evolucionaron estas tecnologías y qué pueden hacer actualmente.
 
@@ -85,7 +87,7 @@ Años más tarde surgieron programas como ELIZA (1966), desarrollado por el inve
 
 Su funcionamiento era muy diferente al de los asistentes actuales. ELIZA no comprendía realmente el significado de las frases ni aprendía de la conversación. En cambio, utilizaba reglas predefinidas para identificar ciertas palabras o expresiones y generar respuestas a partir de plantillas.
 
-Una de sus versiones más conocidas simulaba el comportamiento de un psicoterapeuta. Por ejemplo, si una persona escribía "Estoy preocupado por mis estudios", ELIZA podía responder con preguntas como "¿Por qué estás preocupado por tus estudios?" o "Cuéntame más sobre tus estudios". Este tipo de respuestas daba continuidad al diálogo sin necesidad de comprender el contenido de la conversación.
+Una de sus versiones más conocidas simulaba el comportamiento de un psicoterapeuta. Por ejemplo, si una persona escribía "Estoy preocupado por mis estudios", ELIZA podía responder con preguntas como "¿Por qué estás preocupado por tus estudios?", o "Cuéntame más sobre tus estudios". Este tipo de respuestas daba continuidad al diálogo sin necesidad de comprender el contenido de la conversación.
 
 A pesar de sus limitaciones, muchas personas que interactuaron con ELIZA tuvieron la sensación de estar conversando con alguien que las entendía. Este fenómeno mostró que los seres humanos tendemos a atribuir intención, comprensión o inteligencia a sistemas que producen respuestas coherentes en una conversación.
 
@@ -121,7 +123,7 @@ Mientras que Deep Blue se apoyaba principalmente en la potencia de cálculo y en
 
 Muchas personas utilizan diariamente sistemas de predicción de texto en teléfonos celulares y aplicaciones de mensajería.
 
-Cuando una persona comienza a escribir una frase, el sistema intenta anticipar cuál podría ser la siguiente palabra. Por ejemplo, si alguien escribe una receta que dice "Para preparar la salsa, agregar la ", el sistema podría sugerir ingredientes o palabras que aparecen agrupadas frecuentemente como "crema", "receta" o "carne". Estas sugerencias se basan en patrones observados previamente y mantienen coherencia con el contexto, por lo que no propondría elementos sin relación como "zapatos" o "relojes".
+Cuando una persona comienza a escribir una frase, el sistema intenta anticipar cuál podría ser la siguiente palabra. Por ejemplo, si alguien escribe una receta que dice "Para preparar la salsa, agregar la", el sistema podría sugerir ingredientes o palabras que aparecen agrupadas frecuentemente como "crema", "receta" o "carne". Estas sugerencias se basan en patrones observados previamente y mantienen coherencia con el contexto, por lo que no propondría elementos sin relación como "zapatos" o "relojes".
 
 ![Captura de un teclado virtual sugiriendo palabras](./images/prediccion-texto.jpeg)
 
@@ -216,11 +218,11 @@ Por ejemplo:
 
 Luego se pueden discutir algunas preguntas:
 
-* ¿Las respuestas fueron similares entre distintos participantes?
-* ¿Qué diferencias se observan respecto de ELIZA?
-* ¿Las respuestas parecen más naturales?
-* ¿La herramienta comprende realmente lo que se le pregunta?
-* ¿Cómo podríamos saber si una respuesta es correcta?
+- ¿Las respuestas fueron similares entre distintos participantes?
+- ¿Qué diferencias se observan respecto de ELIZA?
+- ¿Las respuestas parecen más naturales?
+- ¿La herramienta comprende realmente lo que se le pregunta?
+- ¿Cómo podríamos saber si una respuesta es correcta?
 
 ![Captura de pantalla de ChatGPT, probando la primera propuesta de consulta](./images/captura_chatgpt_actividad.png)
 
@@ -252,11 +254,11 @@ Por ejemplo:
 
 Luego de generar ambos textos, se propone discutir:
 
-* ¿Las reseñas parecen auténticas?
-* ¿Cómo podríamos distinguir si fueron escritas por una persona o por una inteligencia artificial?
-* ¿Qué impacto podrían tener este tipo de contenidos en redes sociales, tiendas en línea o plataformas de opinión?
-* ¿Podrían utilizarse para manipular la percepción de un producto, servicio o empresa?
-* ¿Qué riesgos existen si confiamos únicamente en comentarios publicados en Internet?
+- ¿Las reseñas parecen auténticas?
+- ¿Cómo podríamos distinguir si fueron escritas por una persona o por una inteligencia artificial?
+- ¿Qué impacto podrían tener este tipo de contenidos en redes sociales, tiendas en línea o plataformas de opinión?
+- ¿Podrían utilizarse para manipular la percepción de un producto, servicio o empresa?
+- ¿Qué riesgos existen si confiamos únicamente en comentarios publicados en Internet?
 
 Esta actividad permite reflexionar sobre la facilidad con la que los sistemas actuales pueden generar contenido convincente y sobre la importancia de verificar la información antes de tomar decisiones basadas únicamente en opiniones encontradas en línea.
 
@@ -264,7 +266,7 @@ Esta actividad permite reflexionar sobre la facilidad con la que los sistemas ac
 
 - [Evolución de la IA - Will Smith comiendo spaghetti (Video)](https://youtube.com/shorts/7zdVCQ52kMQ?si=FX4OBzzqovB80Aop)
 - [Juego corto adivina ¿Es IA o es real? (Imágenes)](https://youtube.com/shorts/oNWMHjKsqrA?si=_Bn7XSum9hCpJzGo)
-- [Juego adivina el real vs IA (Imágenes)](https://youtu.be/wppNCWCqoRs)
+- [Juego adivina el real vs. IA (Imágenes)](https://youtu.be/wppNCWCqoRs)
 
 ## IA generativa en la actualidad
 
@@ -305,7 +307,7 @@ Comprender estas **limitaciones** es tan importante como conocer las capacidades
 
 - Ser claro: escribir frases completas
 - Lenguaje simple: palabras cortas
-- Dar contexto: explicar qué se busca (tema, estilo, nivel de dificultad, etc)
+- Dar contexto: explicar qué se busca (tema, estilo, nivel de dificultad, etc.)
 - Evitar ambigüedades: palabras muy generales dan respuestas vagas
 - Palabras clave: usar términos importantes en la consigna
 - Pedir ejemplos: o tablas comparativas que ayuden a visualizar y verificar la respuesta
@@ -313,11 +315,17 @@ Comprender estas **limitaciones** es tan importante como conocer las capacidades
 
 ## Uso responsable
 
-* No compartir información sensible o privada.
-* Verificar información importante utilizando fuentes adicionales.
-* Comprender que la IA puede equivocarse, alucinar o presentar sesgos.
-* Utilizar la IA como herramienta de apoyo y no como reemplazo del criterio humano.
-* Formular consultas claras y específicas para obtener mejores resultados.
+- No compartir información sensible o privada.
+- Verificar información importante utilizando fuentes adicionales.
+- Comprender que la IA puede equivocarse, alucinar o presentar sesgos.
+- Utilizar la IA como herramienta de apoyo y no como reemplazo del criterio humano.
+- Formular consultas claras y específicas para obtener mejores resultados.
+
+## Recursos complementarios
+
+- [Medium – How large language models work](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f)
+- [LLM Visualization](https://bbycroft.net/llm)
+- [Wiki – Modelo Extenso de Lenguaje (LLM)](https://es.wikipedia.org/wiki/Modelo_extenso_de_lenguaje)
 
 ## Preguntas frecuentes
 

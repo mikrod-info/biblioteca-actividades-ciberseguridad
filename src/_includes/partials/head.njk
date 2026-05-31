@@ -1,14 +1,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
 
     <title>
-        {% if title %}
         {{ title }}
-        {% else %}
-        Biblioteca de Actividades
-        {% endif %}
     </title>
 
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="{{ '/assets/css/pico.min.css?v=1' | url }}" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=1' | url }}" type="text/css">
+    <link rel="icon" href="{{ '/assets/icons/favicon.svg' | url }}" type="image/x-icon">
+
+    <script type="module" src="{{ '/assets/js/main.js' | url }}"></script>
 </head>

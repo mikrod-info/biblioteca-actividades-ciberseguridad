@@ -1,7 +1,9 @@
 ---
 layout: base
-title: Acerca de
+title: Sobre el proyecto
 ---
+
+# Sobre el proyecto
 
 Esta biblioteca reúne actividades educativas para conversar, explorar y aprender sobre temas vinculados con Internet, la privacidad, las contraseñas, el phishing, la inteligencia artificial y otros aspectos de la vida digital cotidiana.
 

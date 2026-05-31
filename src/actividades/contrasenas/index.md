@@ -1,21 +1,17 @@
 ---
 layout: actividad
 title: Contraseñas
-description: Contraseñas seguras.
-duracion: 90 minutos
-
-publico:
-  - adultos mayores
-
-temas:
-  - Autenticación
-  - Fuerza bruta
-  - Filtraciones
-  - Generadores de contraseñas
-  - Cuentas digitales
+description: Explorar cómo proteger cuentas digitales mediante contraseñas seguras y buenas prácticas.
+icon: "🔐"
+duracion: 120 minutos
+tags:
+  - contraseñas
+  - autenticación
+  - fuerza bruta
+  - filtraciones de datos
+  - multifactor
+  - seguridad digital
 ---
-
-## Resumen
 
 Actividad práctica orientada a comprender la importancia de las contraseñas y desarrollar estrategias para crear claves más seguras y fáciles de recordar.
 
@@ -77,7 +73,7 @@ El objetivo es identificar patrones comunes como secuencias numéricas, nombres 
 
 **Las 500 contraseñas más utilizadas en el mundo:**
 
-[Information is Beautiful - Most Common Passwords](https://informationisbeautiful.net/visualizations/top-500-passwords-visualized/)
+[Information is Beautiful – Most Common Passwords](https://informationisbeautiful.net/visualizations/top-500-passwords-visualized/)
 
 ### ¿Qué nos muestran estas tablas?
 
@@ -88,7 +84,7 @@ Al comparar los distintos rankings es posible observar que muchas personas utili
 Entre los ejemplos más frecuentes aparecen:
 
 - Nombres propios
-- Secuencias numéricas simples
+- Secuencia numérica simple
 - Palabras comunes del idioma
 - Equipos deportivos
 - Fechas significativas
@@ -108,8 +104,8 @@ En este tipo de ataques, un sistema prueba automáticamente una gran cantidad de
 
 Para comprender este fenómeno, se analiza cómo varía la cantidad de combinaciones posibles según dos factores:
 
-* La longitud de la contraseña.
-* La variedad de caracteres utilizados.
+- La longitud de la contraseña.
+- La variedad de caracteres utilizados.
 
 A medida que aumenta la cantidad de caracteres disponibles (letras, números y símbolos) y la longitud de la contraseña, el número de combinaciones posibles crece de forma exponencial.
 
@@ -123,10 +119,10 @@ La siguiente tabla muestra algunos ejemplos:
 
 La tabla permite identificar algunas ideas importantes:
 
-* Agregar uno o dos caracteres puede aumentar considerablemente la cantidad de combinaciones posibles.
-* Utilizar únicamente números genera muchas menos combinaciones que combinar letras, números y símbolos.
-* Las contraseñas cortas suelen ser más fáciles de adivinar que las largas.
-* La longitud suele aportar más seguridad que realizar pequeñas modificaciones sobre una contraseña corta.
+- Agregar uno o dos caracteres puede aumentar considerablemente la cantidad de combinaciones posibles.
+- Utilizar únicamente números genera muchas menos combinaciones que combinar letras, números y símbolos.
+- Las contraseñas cortas suelen ser más fáciles de adivinar que las largas.
+- La longitud suele aportar más seguridad que realizar pequeñas modificaciones sobre una contraseña corta.
 
 Por este motivo, una contraseña como:
 
@@ -154,7 +150,7 @@ El sitio Have I Been Pwned sirve para consultar si una dirección de correo elec
 
 Los participantes pueden ingresar su dirección de correo electrónico y verificar si fue incluida en alguna de las bases de datos públicas recopiladas por el servicio.
 
-[Have I Been Pwned](https://haveibeenpwned.com/)
+[Have I Been Pwned?](https://haveibeenpwned.com/)
 
 Have I Been Pwned fue creado por el especialista en seguridad Troy Hunt y mantiene una base de datos construida a partir de filtraciones que se han hecho públicas a lo largo de los años. Estas filtraciones provienen de distintas fuentes, como reportes de incidentes de seguridad, bases de datos difundidas en foros o sitios especializados, y conjuntos de datos cuya autenticidad ha sido verificada por la comunidad de seguridad.
 
@@ -242,7 +238,11 @@ resulta más extensa y difícil de adivinar que una palabra común, pero contin�
 
 ## Recursos complementarios
 
-## Recursos complementarios
+### Generadores de contraseñas
+
+- [LastPass (inglés)](https://www.lastpass.com/es/features/password-generator)
+- [Roboform (español)](https://www.roboform.com/es/password-generator)
+- [Clave seguro (español)](https://www.clavesegura.org/es/)
 
 ### Caso RockYou (2009)
 
@@ -250,10 +250,10 @@ Una de las filtraciones de contraseñas más conocidas ocurrió en 2009 cuando l
 
 La filtración permitió analizar qué contraseñas utilizaban realmente las personas. Muchas de las más frecuentes eran extremadamente simples, como:
 
-* 123456
-* password
-* iloveyou
-* princess
+- 123456
+- password
+- iloveyou
+- princess
 
 Este incidente suele utilizarse para explicar por qué existen tablas de contraseñas frecuentes y cómo funcionan los ataques basados en diccionarios de palabras conocidas.
 
@@ -327,7 +327,7 @@ Más información:
 
 > **¿Cada cuánto tiempo debo cambiar mis contraseñas?**
 >
-> Actualmente se recomienda cambiar una contraseña cuando existe evidencia o sospecha de compromiso, cuando aparece en una filtración o cuando el servicio lo solicita por motivos de seguridad.
+> Actualmente, se recomienda cambiar una contraseña cuando existe evidencia o sospecha de compromiso, cuando aparece en una filtración o cuando el servicio lo solicita por motivos de seguridad.
 >
 > Cambiar contraseñas frecuentemente sin una razón específica no siempre aporta beneficios si ya se utilizan contraseñas robustas y autenticación multifactor.
 

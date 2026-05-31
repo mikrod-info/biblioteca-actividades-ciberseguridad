@@ -1,0 +1,95 @@
+nav {
+    margin-block: 1rem 2rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    text-decoration: none;
+}
+
+.brand img {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.brand span {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 1rem;
+
+    border-bottom: 1px solid var(--pico-muted-border-color);
+
+    padding-bottom: 1rem;
+}
+
+.brand div {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-controls {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar .primary-menu {
+    display: flex;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .nav-controls {
+        display: contents;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: .5rem .75rem;
+
+        margin-left: auto;
+    }
+
+    .navbar .primary-menu {
+        display: none;
+
+        width: 100%;
+
+        flex-direction: column;
+        align-items: stretch;
+        gap: .25rem;
+
+        margin: 1rem 0 0;
+    }
+
+    .navbar[data-open="true"] .primary-menu {
+        display: flex;
+    }
+}

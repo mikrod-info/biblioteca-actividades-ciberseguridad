@@ -1,32 +1,53 @@
 ---
 layout: base
-title: Actividades prácticas
+title: Actividades
 ---
 
-Esta sección reúne las actividades educativas disponibles en la biblioteca. Cada propuesta incluye objetivos, materiales necesarios, sugerencias para su implementación y observaciones surgidas durante experiencias reales de aplicación.
+Esta sección reúne las actividades educativas disponibles en la biblioteca.
 
-{{ collections.actividades.length }} actividades disponibles.
+<div class="actividades-grid">
 
-{% for actividad in collections.actividades %}
+{%- for actividad in collections.actividades -%}
 
-## [{{ actividad.data.title }}]({{ actividad.url }})
+<article class="actividad-card">
 
-{{ actividad.data.description }}
+    <p class="actividad-icono">
+        {{ actividad.data.icon }}
+    </p>
 
-{% if actividad.data.duracion %}
-**Duración estimada:** {{ actividad.data.duracion }}
-{% endif %}
+    <h2 class="card-title">
+        <a href="{{ actividad.url }}">
+            {{ actividad.data.title }}
+        </a>
+    </h2>
 
-{% if actividad.data.publico %}
-**Público destinatario:** {{ actividad.data.publico | join(", ") }}
-{% endif %}
+    <p>
+        {{ actividad.data.description }}
+    </p>
 
-{% if actividad.data.temas %}
-**Temas:** {{ actividad.data.temas | join(", ") }}
-{% endif %}
+    <p class="actividad-duracion">
+        ⏱️ {{ actividad.data.duracion }}
+    </p>
 
-[Ver actividad completa →]({{ actividad.url }})
+    {%- if actividad.data.tags -%}
 
----
+    <div class="actividad-tags">
 
-{% endfor %}
+        {%- for tag in actividad.data.tags -%}
+
+        <span class="tag">
+            {{ tag }}
+        </span>
+
+        {%- endfor -%}
+
+    </div>
+
+    {%- endif -%}
+
+
+</article>
+
+{%- endfor -%}
+
+</div>
