@@ -21,4 +21,4 @@ Las actividades pueden adaptarse a distintos contextos educativos y comunitarios
 
 Cada actividad aborda un tema específico y puede utilizarse de manera independiente o combinarse con otras para construir recorridos de aprendizaje más amplios.
 
-[Ver actividades →](/actividades/)
+[Ver actividades →]({{ actividades.url | url }})
