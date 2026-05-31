@@ -111,17 +111,25 @@ A partir de esta comparación se introducen conceptos relacionados con privacida
 ## Imágenes de referencia
 
 ### Conexión segura con certificado digital
+
 ![Explicación visual de la conexión segura con certificado digital](./images/handshake.png)
 
 ### HTTPS
+
 ![Marcado diferencial por color HTTP está en rojo y HTTPS en verde](./images/https1.jpg)
+
 ![Marcado diferencial por color e íconos HTTP está en rojo y HTTPS en verde](./images/https2.jpg)
+
 ![Descripción de la diferencia HTTP vs HTTPS y lo que previene con su uso](./images/https3.png)
 
 ### Alertas de riesgo
+
 ![Marca roja mostrando el mensaje "No es seguro" en un sitio web](./images/riesgo1.png)
+
 ![Captura de un mensaje "La conexión no es privada" bajo un candado rojo con una X](./images/riesgo2.png)
+
 ![Captura de una advertencia "riesgo potencial de seguridad a continuación"](./images/riesgo3.png)
+
 ![Captura del mensaje "El sitio al que vas a acceder contiene software malicioso"](./images/riesgo4.png)
 
 ## Recursos complementarios
