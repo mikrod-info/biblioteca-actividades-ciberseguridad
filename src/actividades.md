@@ -3,6 +3,8 @@ layout: base
 title: Actividades
 ---
 
+# Actividades prácticas
+
 Esta sección reúne las actividades educativas disponibles en la biblioteca.
 
 <div class="actividades-grid">
