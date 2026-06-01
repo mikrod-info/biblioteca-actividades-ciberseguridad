@@ -13,6 +13,8 @@ tags:
   - seguridad digital
 ---
 
+## Resumen
+
 Actividad práctica orientada a comprender la importancia de las contraseñas y desarrollar estrategias para crear claves más seguras y fáciles de recordar.
 
 A partir de ejemplos reales, estadísticas de contraseñas, contraseñas filtradas y ejercicios de construcción de contraseñas, se introducen conceptos relacionados con autenticación, ataques de fuerza bruta y protección de cuentas digitales.
