@@ -79,7 +79,7 @@ El objetivo es identificar patrones comunes como secuencias numéricas, nombres 
 
 ### ¿Qué nos muestran estas tablas?
 
-Al comparar los distintos rankings es posible observar que muchas personas utilizan contraseñas similares independientemente del país.
+Al comparar los distintos rankings es posible observar que muchas personas utilizan contraseñas similares independientemente del lugar de origen.
 
 ![Categoría de las contraseñas más comunes, que muestra nombres propios con mayor porcentaje entre otros](./images/categoria-contrasenas-mas-comunes.png)
 
